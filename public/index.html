@@ -8,7 +8,12 @@
 </head>
 <body>
     <p>Welcome to The Chat App.</p>
+    <form id="message-form">
+        <input type="text" placeholder="Message" name="message">
+        <button type="submit" id="submit-btn">Send</button>
+    </form>
 
+    <button type="button" id="send-location">Send Location</button>
 
     <script src="/socket.io/socket.io.js"></script>
     <script type="text/javascript" src="/js/index.js"></script>
